@@ -503,13 +503,13 @@ blockquote {border-left: 3px solid @primaryColor; }
   color: #ffffff;
 }
 .link[aria-expanded="true"], .dropdown-menu {
-  background: #1a242f;
+  background: #c29d0b;
 }
 .nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover {
-  background: #273646!important;
+  background: #e3b90d!important;
 }
 .navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded="true"], .nav-dropdown-sm .dropdown-menu {
-  background: #2c3e50;
+  background: #f1c40f;
 }
 .bg-color.transparent .link {
   color: #ffffff;
@@ -537,6 +537,7 @@ blockquote {border-left: 3px solid @primaryColor; }
 .mbr-section-title {
   color: #242424;
   font-weight: bold;
+  font-size: 36px;
 }
 }
 

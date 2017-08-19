@@ -72,13 +72,13 @@
               "color": "#ffffff"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#1a242f"
+              "background": "#c29d0b"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#273646!important"
+              "background": "#e3b90d!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#2c3e50"
+              "background": "#f1c40f"
             },
             ".bg-color.transparent .link": {
               "color": "#ffffff",
@@ -95,13 +95,13 @@
             }
           },
           "_params": {
-            "logo": true,
-            "showBrand": false,
-            "hideButtons": true,
+            "logo": false,
+            "showBrand": true,
+            "hideButtons": false,
             "sticky": true,
             "collapsed": true,
             "transparent": true,
-            "bgColor": "#2c3e50",
+            "bgColor": "#f1c40f",
             "fontSize": 0.875,
             "fontName": {},
             "fontColor": "#ffffff",
@@ -126,7 +126,7 @@
               "active": true
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">KMARTENTHOUSE</a>",
           "alias": "colorm/components",
           "_tags": [
             "Theme"
@@ -145,7 +145,8 @@
             },
             ".mbr-section-title": {
               "color": "#242424",
-              "font-weight": "bold"
+              "font-weight": "bold",
+              "font-size": "36px"
             }
           },
           "_params": {
@@ -158,7 +159,7 @@
             "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#c0392b",
+            "bgColor": "#d35400",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
@@ -179,7 +180,7 @@
               "linkInNewWindow": false
             }
           },
-          "title": "Caterers in Patna",
+          "title": "KUMAR TENT<br>Caterers<br> in Patna",
           "subtitle": "kumartenthouse",
           "text": "Caterers, Event Management, Wedding Planner and Farm House in Patna",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">learn more</a>",
@@ -232,7 +233,7 @@
           "media1": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/mbr-1200x800.jpg",
+              "src": "@PROJECT_PATH@/assets/images/3-600x356.jpg",
               "class": "features-img",
               "width": 600,
               "link": "",
@@ -252,7 +253,7 @@
           "media2": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/mbr-1200x800.jpg",
+              "src": "@PROJECT_PATH@/assets/images/download-279x181.jpg",
               "class": "features-img",
               "width": 600,
               "link": "",
@@ -346,11 +347,11 @@
           "title": "Services",
           "title1": "Bootstrap 4",
           "subtitle1": "<b>Caterers</b>",
-          "caption1": "<b>Caterers</b><br>Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
+          "caption1": "<b>Event Management</b><br>Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
           "buttons1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">learn more</a>",
           "title2": "Responsive",
           "subtitle2": "<b>Event Management</b>",
-          "caption2": "<b>Event Management</b><br>One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
+          "caption2": "<b>Catering</b><br>One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
           "buttons2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">learn more</a>",
           "title3": "Web Fonts",
           "subtitle3": "<b>Wedding Planner</b>",
@@ -644,7 +645,7 @@
             "showText": true,
             "showArrow": true,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/030.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/034.jpg",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#16a085",
