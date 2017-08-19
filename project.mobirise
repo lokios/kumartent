@@ -284,7 +284,7 @@
             "paddingBottom": 2,
             "columns": 3,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/03.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/download-279x181.jpg",
             "parallax": false,
             "bgColorRadio": false,
             "bgColor": "#51b9bc",
@@ -293,8 +293,8 @@
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "overlay": true,
-            "overlayColor": "#51b9bc",
-            "overlayOpacity": 0.9
+            "overlayColor": "#c0392b",
+            "overlayOpacity": "0.8"
           },
           "title": "Quality Assurance",
           "title1": "Bootstrap 4",
@@ -488,51 +488,13 @@
           "_anchor": "gallery1-9"
         },
         {
-          "_styles": {
-            ".mbr-section-title": {
-              "font-weight": "400"
-            },
-            ".mbr-section-subtitle": {
-              "text-transform": "uppercase",
-              "letter-spacing": "2px",
-              "color": "#fff"
-            }
-          },
-          "_params": {
-            "showTitle": true,
-            "showButtons": true,
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/02.jpg",
-            "parallax": false,
-            "bgColorRadio": false,
-            "bgColor": "#ffc80a",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#ffc80a",
-            "overlayOpacity": 0.9
-          },
-          "title": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-white-outline\" href=\"https://mobirise.com\"><span class=\"cm-icon cm-icon-arrowright mbr-iconfont mbr-iconfont-btn\"></span></a>",
-          "alias": "colorm/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "features17",
-          "_anchor": "features17-4"
-        },
-        {
           "_styles": {},
           "_params": {
             "showTitle": true,
             "showText": true,
             "showArrow": true,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/039.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/03.jpg",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#16a085",
@@ -690,7 +652,7 @@
           "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown.png",
           "media": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/03.jpg",
+              "src": "@THEME_PATH@/components/_images/features/03.jpg",
               "class": ""
             }
           },
