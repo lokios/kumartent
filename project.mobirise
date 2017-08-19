@@ -25,7 +25,7 @@
       ]
     },
     "versionFirst": "4.1.7",
-    "uniqCompNum": 13,
+    "uniqCompNum": 14,
     "versionPublish": "4.1.7",
     "favicon": "@PROJECT_PATH@/assets/images/598088e2e11df764737198-128x50.png",
     "noImageResize": ""
@@ -64,7 +64,7 @@
                 "overlay": true,
                 "overlayOpacity": "0.6",
                 "text": "CCaterers, Event Management, Wedding Planner and Farm House in Patna",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">services</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">reserve</a>"
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"index.html#features1-2\" data-toolbar=\"-mbrBtnMove\">services</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"index.html#form1-d\" data-toolbar=\"-mbrBtnMove\">reserve</a>"
               }
             ]
           },
@@ -488,64 +488,6 @@
           "_anchor": "gallery1-9"
         },
         {
-          "_styles": {},
-          "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showArrow": true,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/03.jpg",
-            "parallax": true,
-            "bgColorRadio": false,
-            "bgColor": "#16a085",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
-            },
-            "overlay": true,
-            "overlayColor": "#16a085",
-            "overlayOpacity": 0.9
-          },
-          "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown.png",
-          "title": "BEAUTIFUL MOBILE WEBSITES",
-          "text": "Develop fully responsive, mobile-ready websites",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary btn-lg\" href=\"https://mobirise.com\">download it</a>",
-          "formButton": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\">CONTACT US</a>",
-          "form": {
-            "action": "adventz77@gmail.com",
-            "alerts": {
-              "success": "Thanks for filling out form!"
-            },
-            "fields": {
-              "name": {
-                "visible": true,
-                "title": "Name",
-                "customTitle": "Name*"
-              },
-              "email": {
-                "visible": true,
-                "title": "Email",
-                "customTitle": "Email*"
-              },
-              "phone": {
-                "visible": false,
-                "title": "Phone",
-                "customTitle": "Phone"
-              },
-              "message": {
-                "title": "Message",
-                "customTitle": "Message"
-              }
-            }
-          },
-          "alias": "colorm/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "intro1",
-          "_anchor": "intro1-5"
-        },
-        {
           "_params": {
             "showTitle": true,
             "showSubtitle": true,
@@ -649,7 +591,7 @@
             "overlayColor": "#ecf0f1",
             "overlayOpacity": 0.9
           },
-          "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown.png",
+          "arrowDown": "@THEME_PATH@/components/_images/header/arrowDown.png",
           "media": {
             "image": {
               "src": "@THEME_PATH@/components/_images/features/03.jpg",
@@ -801,7 +743,7 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#slider-a\">OVERVIEW</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features1-2\">SERVICES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features4-3\">QUALITY</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#team2-6\">TEAM</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#intro1-5\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"index.html#contacts1-7\">CALL US</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#slider-a\">OVERVIEW</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features1-2\">SERVICES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features4-3\">QUALITY</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#team2-6\">TEAM</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#form1-d\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"index.html#contacts1-7\">CALL US</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -823,6 +765,69 @@
           ],
           "_name": "menu",
           "_anchor": "menu-c"
+        },
+        {
+          "_styles": {
+            ".mbr-section-subtitle": {
+              "text-transform": "uppercase"
+            },
+            ".form-control-label": {}
+          },
+          "_params": {
+            "showSubtitle": true,
+            "showTitle": true,
+            "showText": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/03.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#ecf0f1",
+            "overlay": false,
+            "overlayColor": "#ecf0f1",
+            "overlayOpacity": 0.5
+          },
+          "iconName": "<img src=\"@PROJECT_PATH@/assets/images/icon-name.png\">",
+          "iconEmail": "<img src=\"@PROJECT_PATH@/assets/images/icon-email.png\">",
+          "iconPhone": "<img src=\"@PROJECT_PATH@/assets/images/icon-phone.png\">",
+          "title": "CONTACT FORM",
+          "subtitle": "READY FOR OFFERS AND COOPERATION",
+          "text": "DROP A LINE\n<br>DON'T HESITATE TO CONTACT US&nbsp;<br>",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\">CONTACT US</a>",
+          "form": {
+            "action": "adventz77@gmail.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "visible": true,
+                "title": "Name",
+                "customTitle": "Name*"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "visible": true,
+                "title": "Phone",
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form1",
+          "_anchor": "form1-d"
         }
       ]
     }

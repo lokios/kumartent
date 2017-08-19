@@ -505,9 +505,6 @@ blockquote {border-left: 3px solid @primaryColor; }
 #gallery1-9 {
 }
 
-#intro1-5 {
-}
-
 #team2-6 {
 }
 
@@ -569,5 +566,14 @@ blockquote {border-left: 3px solid @primaryColor; }
 }
 .link[aria-expanded="true"], .dropdown-item[aria-expanded="true"] {
   color: #f39c12!important;
+}
+}
+
+#form1-d {
+.mbr-section-subtitle {
+  text-transform: uppercase;
+}
+.form-control-label {
+  color: undefined;
 }
 }
