@@ -531,10 +531,10 @@ blockquote {border-left: 3px solid @primaryColor; }
   color: #ffffff;
 }
 .link {
-  font-size: 0.875rem;
+  font-size: 1.45rem;
 }
 .dropdown-item, .nav-dropdown-sm .link {
-  font-size: 0.948rem;
+  font-size: 1.570rem;
 }
 .link:hover, .link:focus {
   color: #f39c12;
@@ -576,4 +576,114 @@ blockquote {border-left: 3px solid @primaryColor; }
 .form-control-label {
   color: undefined;
 }
+}
+#menu-f .hide-buttons .nav-btn {
+  display: none !important;
+}
+#menu-f .navbar-caption {
+  color: #ffffff;
+}
+#menu-f .navbar-toggler {
+  color: #ffffff;
+}
+#menu-f .close-icon::before,
+#menu-f .close-icon::after {
+  background-color: #ffffff;
+}
+#menu-f .link,
+#menu-f .dropdown-item {
+  color: #ffffff;
+}
+#menu-f .link {
+  font-size: 1.45rem;
+}
+#menu-f .dropdown-item,
+#menu-f .nav-dropdown-sm .link {
+  font-size: 1.570rem;
+}
+#menu-f .link:hover,
+#menu-f .link:focus {
+  color: #f39c12;
+}
+#menu-f .dropdown-item:hover::before,
+#menu-f .dropdown-item:focus::before {
+  background: #f39c12;
+}
+#menu-f .dropdown-item:hover,
+#menu-f .dropdown-item:focus {
+  color: #ffffff;
+}
+#menu-f .link[aria-expanded="true"],
+#menu-f .dropdown-menu {
+  background: #1a242f;
+}
+#menu-f .nav-dropdown-sm .link:focus,
+#menu-f .nav-dropdown-sm .link:hover,
+#menu-f .nav-dropdown-sm .dropdown-item:focus,
+#menu-f .nav-dropdown-sm .dropdown-item:hover {
+  background: #273646!important;
+}
+#menu-f .navbar,
+#menu-f .nav-dropdown-sm,
+#menu-f .nav-dropdown-sm .link[aria-expanded="true"],
+#menu-f .nav-dropdown-sm .dropdown-menu {
+  background: #2c3e50;
+}
+#menu-f .bg-color.transparent .link {
+  color: #ffffff;
+  transition: none;
+}
+#menu-f .bg-color.transparent.opened .link {
+  transition: color 0.2s ease-in-out;
+}
+#menu-f .bg-color.transparent.opened .link:hover,
+#menu-f .bg-color.transparent.opened .link:focus {
+  color: #f39c12;
+}
+#menu-f .link[aria-expanded="true"],
+#menu-f .dropdown-item[aria-expanded="true"] {
+  color: #f39c12!important;
+}
+#shop1-g .galleryItem h4:hover {
+  color: #f39c12;
+}
+#shop1-g .mbr-gallery-filter ul li.active {
+  color: #f39c12;
+}
+#shop1-g .mbr-gallery-filter ul li:hover {
+  color: #f39c12;
+}
+#shop1-g .mbr-gallery-filter ul li:before {
+  background: #f39c12;
+}
+#shop1-g .min-toggle:hover,
+#shop1-g .max-toggle:hover {
+  background-color: #f39c12;
+}
+#shop1-g .shop-title {
+  font-family: Arvo;
+}
+#shop1-g .categories-titles .mbr-gallery-filter ul li {
+  font-family: Arvo;
+}
+#shop1-g .max-input {
+  font-family: Arvo;
+}
+#shop1-g .min-input {
+  font-family: Arvo;
+}
+#shop1-g .item-title {
+  font-family: Arvo;
+}
+#shop1-g .card-description {
+  font-family: Open Sans;
+}
+#shop1-g .shop-item-price {
+  font-family: Montserrat;
+}
+#form2-h .mbr-section-subtitle {
+  text-transform: uppercase;
+}
+#form2-h .form-control-label {
+  color: undefined;
 }
